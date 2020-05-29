@@ -135,7 +135,7 @@ class SXMClient:
     @property
     def is_logged_in(self) -> bool:
 
-        return "SXMAUTH" in self._session.cookies
+        return "SXMAUTHNEW" in self._session.cookies
 
     @property
     def is_session_authenticated(self) -> bool:
